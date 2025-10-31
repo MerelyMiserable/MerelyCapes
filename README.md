@@ -54,7 +54,7 @@ Launch Minecraft and check your dressing room
 
 Your custom capes will appear in the cape selection!
 
-Common Issues
+# Common Issues
 Proxy not working:
 
 Ensure you're running as Administrator
@@ -77,7 +77,7 @@ The app automatically installs required certificates
 
 If issues persist, try running as Administrator
 
-Support
+# Support
 If you encounter issues:
 
 Check the proxy log in the application
@@ -86,11 +86,11 @@ Ensure all prerequisites are met
 
 Restart the application and Minecraft
 
-Contributing
+# Contributing
 We welcome contributions! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
-License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Disclaimer
+# Disclaimer
 This tool is for educational purposes. Use at your own risk. Not affiliated with Mojang or Microsoft.
