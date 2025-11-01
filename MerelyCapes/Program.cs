@@ -1,4 +1,4 @@
-﻿using McCrypt;
+using McCrypt;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Diagnostics;
@@ -339,6 +339,11 @@ namespace MerelyCapes
             clearLogMenu.Click += (s, e) => _txtProxyLog.Clear();
             proxyMenu.DropDownItems.AddRange(new ToolStripItem[] { proxySettingsMenu, clearLogMenu });
 
+            var exportCertMenu = new ToolStripMenuItem("Export Certificate");
+            exportCertMenu.Click += ExportCertMenu_Click;
+            proxyMenu.DropDownItems.Insert(0, exportCertMenu);
+            proxyMenu.DropDownItems.Insert(1, new ToolStripSeparator());
+
             menuStrip.Items.AddRange(new ToolStripItem[] { fileMenu, proxyMenu });
 
             this.MainMenuStrip = menuStrip;
@@ -348,6 +353,51 @@ namespace MerelyCapes
 
             this.BackColor = Color.FromArgb(15, 10, 25);
         }
+
+        private void ExportCertMenu_Click(object sender, EventArgs e)
+        {
+            if (_proxyServer == null || _proxyServer.CertificateManager.RootCertificate == null)
+            {
+                MessageBox.Show("Please start the proxy first to generate a certificate.",
+                    "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            using (var sfd = new SaveFileDialog())
+            {
+                sfd.Filter = "Certificate Files|*.cer";
+                sfd.FileName = "TitaniumRootCert.cer";
+                sfd.Title = "Export Root Certificate";
+
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        var cert = _proxyServer.CertificateManager.RootCertificate;
+                        byte[] certData = cert.Export(X509ContentType.Cert);
+                        File.WriteAllBytes(sfd.FileName, certData);
+
+                        MessageBox.Show(
+                            "Certificate exported successfully!\n\n" +
+                            "To install manually:\n" +
+                            "1. Double-click the .cer file\n" +
+                            "2. Click 'Install Certificate'\n" +
+                            "3. Select 'Current User'\n" +
+                            "4. Choose 'Place all certificates in the following store'\n" +
+                            "5. Browse and select 'Trusted Root Certification Authorities'\n" +
+                            "6. Click Next and Finish",
+                            "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Failed to export certificate: {ex.Message}",
+                            "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+        }
+
+
 
         [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn(
@@ -444,8 +494,13 @@ namespace MerelyCapes
                 LogProxy($"✓ Intercepting: {_playfabApiUrl}", Color.Yellow);
                 LogProxy($"✓ Configured {_capes.Count} cape(s)", Color.Cyan);
                 LogProxy("", Color.White);
-                LogProxy("IMPORTANT: Set Windows proxy to 127.0.0.1:8080", Color.Orange);
-                LogProxy("Go to: Settings > Network & Internet > Proxy", Color.Orange);
+                LogProxy("SETUP INSTRUCTIONS:", Color.Orange);
+                LogProxy("1. Set Windows proxy to 127.0.0.1:8080", Color.Yellow);
+                LogProxy("   Settings > Network & Internet > Proxy > Manual proxy setup", Color.Gray);
+                LogProxy("2. If sites won't load, the certificate may not be trusted", Color.Yellow);
+                LogProxy("   - Try running as Administrator", Color.Gray);
+                LogProxy("   - Or use Proxy > Export Certificate to install manually", Color.Gray);
+                LogProxy("3. Launch Minecraft and browse to the Dressing Room", Color.Yellow);
             }
             catch (Exception ex)
             {
@@ -453,6 +508,7 @@ namespace MerelyCapes
                 StopProxy();
             }
         }
+
 
         private void StopProxy()
         {
@@ -668,16 +724,10 @@ namespace MerelyCapes
         {
             try
             {
-                if (!IsRunningAsAdmin())
-                {
-                    LogProxy("[WARNING] Not running as admin - certificate may not install", Color.Orange);
-                    return;
-                }
-
                 var rootCert = _proxyServer?.CertificateManager.RootCertificate;
                 if (rootCert == null) return;
 
-                using (var store = new X509Store(StoreName.Root, StoreLocation.LocalMachine))
+                using (var store = new X509Store(StoreName.Root, StoreLocation.CurrentUser))
                 {
                     store.Open(OpenFlags.ReadWrite);
                     var existing = store.Certificates.Find(X509FindType.FindByThumbprint, rootCert.Thumbprint, false);
@@ -685,7 +735,7 @@ namespace MerelyCapes
                     if (existing.Count == 0)
                     {
                         store.Add(rootCert);
-                        LogProxy("[CERT] Root certificate installed", Color.Cyan);
+                        LogProxy("[CERT] Root certificate installed to CurrentUser", Color.Cyan);
                     }
                     else
                     {
@@ -694,10 +744,38 @@ namespace MerelyCapes
 
                     store.Close();
                 }
+
+                // Also try LocalMachine if admin
+                if (IsRunningAsAdmin())
+                {
+                    using (var store = new X509Store(StoreName.Root, StoreLocation.LocalMachine))
+                    {
+                        store.Open(OpenFlags.ReadWrite);
+                        var existing = store.Certificates.Find(X509FindType.FindByThumbprint, rootCert.Thumbprint, false);
+
+                        if (existing.Count == 0)
+                        {
+                            store.Add(rootCert);
+                            LogProxy("[CERT] Root certificate installed to LocalMachine", Color.Cyan);
+                        }
+                        else
+                        {
+                            LogProxy("[CERT] Root certificate already in LocalMachine", Color.Gray);
+                        }
+
+                        store.Close();
+                    }
+                }
+                else
+                {
+                    LogProxy("[WARNING] Not running as admin - LocalMachine cert not installed", Color.Orange);
+                    LogProxy("[INFO] Consider running as Administrator for full certificate trust", Color.Yellow);
+                }
             }
             catch (Exception ex)
             {
-                LogProxy($"[WARNING] Certificate install failed: {ex.Message}", Color.Orange);
+                LogProxy($"[ERROR] Certificate install failed: {ex.Message}", Color.Red);
+                LogProxy("[SOLUTION] Try running as Administrator", Color.Yellow);
             }
         }
 
