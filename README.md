@@ -26,13 +26,13 @@ Add a New Cape
 
 Click "Add Cape" button
 
-Enter cape name and description
+Tge cape will be previewed in the editor
+
+Enter cape name
 
 Select rarity (common, rare, epic, legendary)
 
 Add Cape Texture
-
-Click "Select Image"
 
 Choose a 64x32 PNG file (recommended dimensions)
 
@@ -46,10 +46,6 @@ Configure Proxy
 
 Click "Start Proxy"
 
-The app will guide you to set Windows proxy settings
-
-Set proxy to 127.0.0.1:8080
-
 Launch Minecraft and check your dressing room
 
 Your custom capes will appear in the cape selection!
@@ -58,10 +54,6 @@ Your custom capes will appear in the cape selection!
 Proxy not working:
 
 Ensure you're running as Administrator
-
-Check Windows proxy settings are set to 127.0.0.1:8080
-
-Verify no other applications are using port 8080
 
 Capes not appearing in Minecraft:
 
