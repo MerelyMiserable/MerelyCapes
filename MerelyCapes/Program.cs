@@ -375,11 +375,11 @@ int height = 256)
                 float z1 = 2f, z2 = 3f;
 
                 // North (front of cape) uv[1,2,11,34]
-                Quad(gl, Cu(1), Cv(2), Cu(11), Cv(34),
+                Quad(gl, Cu(12), Cv(2), Cu(22), Cv(34),
                     x1, y2, z1, x2, y2, z1, x2, y1, z1, x1, y1, z1);
 
                 // South (back of cape) uv[12,2,22,34]
-                Quad(gl, Cu(12), Cv(2), Cu(22), Cv(34),
+                Quad(gl, Cu(1), Cv(2), Cu(11), Cv(34),
                     x2, y2, z2, x1, y2, z2, x1, y1, z2, x2, y1, z2);
 
                 // East (right side) uv[11,2,12,34]
