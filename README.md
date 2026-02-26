@@ -26,7 +26,7 @@ Add a New Cape
 
 Click "Add Cape" button
 
-The cape will be previewed in the editor
+Tge cape will be previewed in the editor
 
 Enter cape name
 
