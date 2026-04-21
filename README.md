@@ -81,6 +81,9 @@ Restart the application and Minecraft
 # Contributing
 We welcome contributions! Please feel free to submit pull requests or open issues for bugs and feature requests.
 
+# Contributors
+[Zoroark19](https://github.com/zoroark19)
+
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
