@@ -1,0 +1,1658 @@
+{
+  "result": {
+    "id": "9635ac1f-8ea3-4bb2-a43c-9b158b3382d1",
+    "pageId": "DressingRoom_Capes",
+    "addToRecentlyViewed": false,
+    "pageName": "Home L1",
+    "pageRefresh": false,
+    "sidebarLayoutType": "Persona",
+    "layout": [
+      {
+        "sectionName": "rows",
+        "rows": [
+          {
+            "controlId": "Layout",
+            "components": [
+              {
+                "type": "personaOfferInteractionComp",
+                "$type": "PersonaOfferInteractionComponent"
+              },
+              {
+                "type": "appearanceInteractionComp",
+                "$type": "AppearanceInteractionComponent"
+              },
+              {
+                "type": "openColorPickerComp",
+                "$type": "OpenColorPickerComponent"
+              },
+              {
+                "type": "openExpandedAppearanceViewComp",
+                "$type": "OpenExpandedAppearanceViewComponent"
+              },
+              {
+                "linksToInfo": {
+                  "linksTo": "MultiItemPage_DressingRoomCoinScreen",
+                  "linkType": "pageId",
+                  "displayType": "store_layout.character_creator_screen",
+                  "screenTitle": {
+                    "value": "dr.header.minecoin.screen",
+                    "style": {
+                      "highlightColor": [],
+                      "alignment": "Left",
+                      "textColor": [],
+                      "font": "MinecraftTen",
+                      "showBackground": false,
+                      "showOutline": false,
+                      "indent": 0,
+                      "buttonWidth": 0,
+                      "color": [],
+                      "offerControlIdType": "None"
+                    },
+                    "replacements": []
+                  },
+                  "navigateInPlace": false
+                },
+                "isVisible": true,
+                "type": "topBarMinecoinComp",
+                "$type": "TopBarMinecoinComponent"
+              },
+              {
+                "linksToInfo": {
+                  "linksTo": "Search_DressingRoomSearchHome",
+                  "linkType": "pageId",
+                  "displayType": "store_layout.character_creator_screen",
+                  "screenTitle": {
+                    "value": "dr.header.search.home",
+                    "style": {
+                      "highlightColor": [],
+                      "alignment": "Left",
+                      "textColor": [],
+                      "font": "MinecraftTen",
+                      "showBackground": false,
+                      "showOutline": false,
+                      "indent": 0,
+                      "buttonWidth": 0,
+                      "color": [],
+                      "offerControlIdType": "None"
+                    },
+                    "replacements": []
+                  },
+                  "navigateInPlace": false
+                },
+                "isVisible": true,
+                "type": "topBarSearchComp",
+                "$type": "TopBarSearchComponent"
+              }
+            ]
+          },
+          {
+            "controlId": "GridList",
+            "components": [
+              {
+                "text": {
+                  "value": "dr.collector_title.owned",
+                  "style": {
+                    "highlightColor": [],
+                    "alignment": "Left",
+                    "textColor": [1, 1, 1],
+                    "font": "MinecraftTen",
+                    "showBackground": false,
+                    "showOutline": false,
+                    "indent": 0,
+                    "buttonWidth": 0,
+                    "color": [],
+                    "offerControlIdType": "None"
+                  },
+                  "replacements": ["dr.categories.capes"]
+                },
+                "type": "headerComp",
+                "$type": "HeaderComponent"
+              },
+              {
+                "items": [
+                  {
+                    "id": "7118a7d5-240e-4f6d-8959-5269ba041938",
+                    "contentType": "PersonaDurable",
+                    "title": "15th Anniversary Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/fc03237c-8dc9-41d8-a528-403df7d653e3/15_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets001.xboxlive.com:443/pf-namespace-b63a0803d3653643/fc03237c-8dc9-41d8-a528-403df7d653e3/15_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_7118a7d5-240e-4f6d-8959-5269ba041938?selectedItemId=7118a7d5-240e-4f6d-8959-5269ba041938",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_7118a7d5-240e-4f6d-8959-5269ba041938?selectedItemId=7118a7d5-240e-4f6d-8959-5269ba041938",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "7ed341e7-6bd3-44e2-8899-7ab99fad34e8",
+                        "version": "1.2.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/fc03237c-8dc9-41d8-a528-403df7d653e3/15_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets001.xboxlive.com:443/pf-namespace-b63a0803d3653643/fc03237c-8dc9-41d8-a528-403df7d653e3/15_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "81286238-bf95-4752-b675-0793bd6107dd",
+                    "contentType": "PersonaDurable",
+                    "title": "Founder's Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-ee7b/98626e0c-d0e0-412c-9bf9-c901d866593b/founders_cape_thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com:443/pf-title-b63a0803d3653643-ee7b/98626e0c-d0e0-412c-9bf9-c901d866593b/founders_cape_thumbnail_0.png?width=800&height=450"
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_81286238-bf95-4752-b675-0793bd6107dd?selectedItemId=81286238-bf95-4752-b675-0793bd6107dd",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_81286238-bf95-4752-b675-0793bd6107dd?selectedItemId=81286238-bf95-4752-b675-0793bd6107dd",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "1b99b77c-3caa-4aaa-8f79-f79f053e586f",
+                        "version": "1.1.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-ee7b/98626e0c-d0e0-412c-9bf9-c901d866593b/founders_cape_thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com:443/pf-title-b63a0803d3653643-ee7b/98626e0c-d0e0-412c-9bf9-c901d866593b/founders_cape_thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2019-12-04T00:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "a9514181-c826-4d72-bf36-f2379582d1ac",
+                    "contentType": "PersonaDurable",
+                    "title": "Home Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/57d8bb74-b829-4039-b224-25090f0ff35e/home_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets001.xboxlive.com:443/pf-namespace-b63a0803d3653643/57d8bb74-b829-4039-b224-25090f0ff35e/home_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_a9514181-c826-4d72-bf36-f2379582d1ac?selectedItemId=a9514181-c826-4d72-bf36-f2379582d1ac",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_a9514181-c826-4d72-bf36-f2379582d1ac?selectedItemId=a9514181-c826-4d72-bf36-f2379582d1ac",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "a4c83b58-b18e-0815-7ce7-1ec9182d8027",
+                        "version": "1.3.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/57d8bb74-b829-4039-b224-25090f0ff35e/home_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets001.xboxlive.com:443/pf-namespace-b63a0803d3653643/57d8bb74-b829-4039-b224-25090f0ff35e/home_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2025-02-11T01:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "31951ea2-207a-4f3a-a14d-f92fdda0b18e",
+                    "contentType": "PersonaDurable",
+                    "title": "Menace Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/caea052d-7e7a-4dba-9796-f62ef1fa6392/menace_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com:443/pf-namespace-b63a0803d3653643/caea052d-7e7a-4dba-9796-f62ef1fa6392/menace_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_31951ea2-207a-4f3a-a14d-f92fdda0b18e?selectedItemId=31951ea2-207a-4f3a-a14d-f92fdda0b18e",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_31951ea2-207a-4f3a-a14d-f92fdda0b18e?selectedItemId=31951ea2-207a-4f3a-a14d-f92fdda0b18e",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "3f4f5068-2c40-debb-b181-bdafad187859",
+                        "version": "1.3.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/caea052d-7e7a-4dba-9796-f62ef1fa6392/menace_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com:443/pf-namespace-b63a0803d3653643/caea052d-7e7a-4dba-9796-f62ef1fa6392/menace_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2025-02-11T01:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "f72bd899-c3f6-4516-ad10-a70c36a98641",
+                    "contentType": "PersonaDurable",
+                    "title": "The Pan Cape!",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/d10d3cb0-f692-4053-b3fa-18ee63fa9272/cape_pancape_thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com:443/pf-namespace-b63a0803d3653643/d10d3cb0-f692-4053-b3fa-18ee63fa9272/cape_pancape_thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 4.2,
+                      "totalCount": 6
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_f72bd899-c3f6-4516-ad10-a70c36a98641?selectedItemId=f72bd899-c3f6-4516-ad10-a70c36a98641",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_f72bd899-c3f6-4516-ad10-a70c36a98641?selectedItemId=f72bd899-c3f6-4516-ad10-a70c36a98641",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "NotOwned",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "ef479b6d-7072-47aa-8985-0f025cd24cdb",
+                        "version": "1.7.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/d10d3cb0-f692-4053-b3fa-18ee63fa9272/cape_pancape_thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com:443/pf-namespace-b63a0803d3653643/d10d3cb0-f692-4053-b3fa-18ee63fa9272/cape_pancape_thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2019-09-04T17:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "4f156163-666c-4d3a-ace8-fc82ac8ac179",
+                    "contentType": "PersonaDurable",
+                    "title": "Mojang Studios Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/105e3182-d377-408b-9739-a3ee53072d40/mojang_studios_cape_thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/105e3182-d377-408b-9739-a3ee53072d40/mojang_studios_cape_thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 4.2,
+                      "totalCount": 6
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_a9269d4c-b046-4ad8-ac20-297978d6276e?selectedItemId=a9269d4c-b046-4ad8-ac20-297978d6276e",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_a9269d4c-b046-4ad8-ac20-297978d6276e?selectedItemId=a9269d4c-b046-4ad8-ac20-297978d6276e",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "NotOwned",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "1b302e84-6da6-11ec-90d6-0242ac120003",
+                        "version": "1.0.1"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/105e3182-d377-408b-9739-a3ee53072d40/mojang_studios_cape_thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/105e3182-d377-408b-9739-a3ee53072d40/mojang_studios_cape_thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2022-01-18T18:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "d323193d-0897-4b95-9bf4-4fdb7905fffb",
+                    "contentType": "PersonaDurable",
+                    "title": "Yearn Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/929c2e9e-0253-48bd-9758-df02eb3b9787/idaho_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/929c2e9e-0253-48bd-9758-df02eb3b9787/idaho_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 4.2,
+                      "totalCount": 6
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_a4fe4c6b-3d18-4dac-8f8d-0d18a007d9a3?selectedItemId=a4fe4c6b-3d18-4dac-8f8d-0d18a007d9a3",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_a4fe4c6b-3d18-4dac-8f8d-0d18a007d9a3?selectedItemId=a4fe4c6b-3d18-4dac-8f8d-0d18a007d9a3",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "5b20560b-6da2-4c2f-ba1c-3d94fea845eb",
+                        "version": "1.2.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/929c2e9e-0253-48bd-9758-df02eb3b9787/idaho_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/929c2e9e-0253-48bd-9758-df02eb3b9787/idaho_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "8b80631a-ea4f-4c65-bb9c-52e78bf58629",
+                    "contentType": "PersonaDurable",
+                    "title": "Progress Pride Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/929c2e9e-0253-48bd-9758-df02eb3b9787/idaho_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/929c2e9e-0253-48bd-9758-df02eb3b9787/idaho_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 4.2,
+                      "totalCount": 6
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_8269b62d-40d0-4363-927e-1a048de7c10d?selectedItemId=8269b62d-40d0-4363-927e-1a048de7c10d",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_8269b62d-40d0-4363-927e-1a048de7c10d?selectedItemId=8269b62d-40d0-4363-927e-1a048de7c10d",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "ed58fd42-c8ef-07f9-b14d-257a4fc0f4b6",
+                        "version": "1.2.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/a2788b12-921d-4ce5-8f3f-8afef13dbea4/cape_pride_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/a2788b12-921d-4ce5-8f3f-8afef13dbea4/cape_pride_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "7b59f6ad-d9aa-4b12-baf3-bd61ada29970",
+                    "contentType": "PersonaDurable",
+                    "title": "MC Experience Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/5528da8b-8328-40fd-b666-40f5a64d5c4c/cape_lbe_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/5528da8b-8328-40fd-b666-40f5a64d5c4c/cape_lbe_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 0,
+                      "totalCount": 0
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_60d807c2-426e-401d-842d-564e2e13b36c?selectedItemId=60d807c2-426e-401d-842d-564e2e13b36c",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_60d807c2-426e-401d-842d-564e2e13b36c?selectedItemId=60d807c2-426e-401d-842d-564e2e13b36c",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "efd2b594-49bb-48b9-b9f2-9b0ac2ef3af4",
+                        "version": "1.1.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/5528da8b-8328-40fd-b666-40f5a64d5c4c/cape_lbe_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/5528da8b-8328-40fd-b666-40f5a64d5c4c/cape_lbe_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "8acd7e9f-9f00-4c5f-ad62-c7a85d7559a9",
+                    "contentType": "PersonaDurable",
+                    "title": "Purple Heart Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/0416755e-200a-4c9e-9290-91b5734330f6/cape_twitch_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/0416755e-200a-4c9e-9290-91b5734330f6/cape_twitch_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 0,
+                      "totalCount": 0
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_ed28ca08-9d19-4d22-a2f8-90e846367018?selectedItemId=ed28ca08-9d19-4d22-a2f8-90e846367018",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_ed28ca08-9d19-4d22-a2f8-90e846367018?selectedItemId=ed28ca08-9d19-4d22-a2f8-90e846367018",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "07adfe62-a54b-49b4-9d93-10c6c2079a76",
+                        "version": "1.1.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/0416755e-200a-4c9e-9290-91b5734330f6/cape_twitch_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/0416755e-200a-4c9e-9290-91b5734330f6/cape_twitch_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "4f0193a8-bd93-4bf3-a795-2e39388e0b01",
+                    "contentType": "PersonaDurable",
+                    "title": "One Vanilla",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets001.xboxlive.com/pf-title-b63a0803d3653643-20ca2/51395295-8a0c-485e-b775-4d26ce8ad312/one_vanilla_cape_thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-title-b63a0803d3653643-20ca2/51395295-8a0c-485e-b775-4d26ce8ad312/one_vanilla_cape_thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 0,
+                      "totalCount": 0
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_bf2d5f9a-3b1b-4f1f-9001-f54479e7cd85?selectedItemId=bf2d5f9a-3b1b-4f1f-9001-f54479e7cd85",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_bf2d5f9a-3b1b-4f1f-9001-f54479e7cd85?selectedItemId=bf2d5f9a-3b1b-4f1f-9001-f54479e7cd85",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "fce20ac3-e80b-4c00-8230-d815c8a0665c",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets001.xboxlive.com/pf-title-b63a0803d3653643-20ca2/51395295-8a0c-485e-b775-4d26ce8ad312/one_vanilla_cape_thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-title-b63a0803d3653643-20ca2/51395295-8a0c-485e-b775-4d26ce8ad312/one_vanilla_cape_thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "fb455ae5-6d2c-476e-82d1-6c8daab7b369",
+                    "contentType": "PersonaDurable",
+                    "title": "Mojang Office Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/d301e56d-bf8b-46c7-9fb6-764e7edf7b9a/cape_office_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/d301e56d-bf8b-46c7-9fb6-764e7edf7b9a/cape_office_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 5,
+                      "totalCount": 1
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_3296f97c-3234-4ad2-9a3c-3d58349e950d?selectedItemId=3296f97c-3234-4ad2-9a3c-3d58349e950d",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_3296f97c-3234-4ad2-9a3c-3d58349e950d?selectedItemId=3296f97c-3234-4ad2-9a3c-3d58349e950d",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "24372814-36c0-4ac9-8de7-7086f504fa97",
+                        "version": "1.1.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/d301e56d-bf8b-46c7-9fb6-764e7edf7b9a/cape_office_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/d301e56d-bf8b-46c7-9fb6-764e7edf7b9a/cape_office_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "5bbbeb79-5626-42e7-acbe-20ce4db8217d",
+                    "contentType": "PersonaDurable",
+                    "title": "MCC 15th Year Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/d7bc7a07-49fb-429b-911c-f7294c63b8c3/mcc_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/d7bc7a07-49fb-429b-911c-f7294c63b8c3/mcc_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 0,
+                      "totalCount": 0
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_da005ff9-186d-4566-8221-e8034ce93d88?selectedItemId=da005ff9-186d-4566-8221-e8034ce93d88",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_da005ff9-186d-4566-8221-e8034ce93d88?selectedItemId=da005ff9-186d-4566-8221-e8034ce93d88",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "d9ad40f5-e119-4b2b-8077-cec04b923e60",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/d7bc7a07-49fb-429b-911c-f7294c63b8c3/mcc_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/d7bc7a07-49fb-429b-911c-f7294c63b8c3/mcc_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "b9fb90bb-48a8-4c9f-97c5-43121f29ad84",
+                    "contentType": "PersonaDurable",
+                    "title": "Cherry Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a245dd6-1021-428f-900d-3d0be0d8273a/cape_cherry_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a245dd6-1021-428f-900d-3d0be0d8273a/cape_cherry_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 5,
+                      "totalCount": 1
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_abd5edc5-7bef-46a1-a5f6-5239a5f00e99?selectedItemId=abd5edc5-7bef-46a1-a5f6-5239a5f00e99",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_abd5edc5-7bef-46a1-a5f6-5239a5f00e99?selectedItemId=abd5edc5-7bef-46a1-a5f6-5239a5f00e99",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "0302ebba-bfeb-8748-3e66-03acd664c78f",
+                        "version": "1.1.1"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a245dd6-1021-428f-900d-3d0be0d8273a/cape_cherry_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a245dd6-1021-428f-900d-3d0be0d8273a/cape_cherry_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "76bb8cb2-f246-4b17-8cdd-37bfa62df2bd",
+                    "contentType": "PersonaDurable",
+                    "title": "Follower's Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a7cdf2c-4560-408c-bb05-83689c5c44d0/cape_tiktok_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a7cdf2c-4560-408c-bb05-83689c5c44d0/cape_tiktok_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 0,
+                      "totalCount": 0
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_bfb4196c-6566-41b6-96b8-6d2ded7879ef?selectedItemId=bfb4196c-6566-41b6-96b8-6d2ded7879ef",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_bfb4196c-6566-41b6-96b8-6d2ded7879ef?selectedItemId=bfb4196c-6566-41b6-96b8-6d2ded7879ef",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "626c9afc-3d6b-4c90-826a-863996e76e9a",
+                        "version": "1.1.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a7cdf2c-4560-408c-bb05-83689c5c44d0/cape_tiktok_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/7a7cdf2c-4560-408c-bb05-83689c5c44d0/cape_tiktok_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "cfbb7987-e21a-43a3-8932-07294c2aefd7",
+                    "contentType": "PersonaDurable",
+                    "title": "The Pan Cape!",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/7b6368e8-2953-4142-949d-bb4d4d7040ce/cape_pancape_thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/7b6368e8-2953-4142-949d-bb4d4d7040ce/cape_pancape_thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 5,
+                      "totalCount": 1
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_f5cedc70-b2a0-4884-920a-6c04d3eb2495?selectedItemId=f5cedc70-b2a0-4884-920a-6c04d3eb2495",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_f5cedc70-b2a0-4884-920a-6c04d3eb2495?selectedItemId=f5cedc70-b2a0-4884-920a-6c04d3eb2495",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "common",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "16b85199-ee73-4fb1-b2a1-0f35ee4e759c",
+                        "version": "1.1.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/7b6368e8-2953-4142-949d-bb4d4d7040ce/cape_pancape_thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-title-b63a0803d3653643-20ca2/7b6368e8-2953-4142-949d-bb4d4d7040ce/cape_pancape_thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "99ea16b5-87fa-4bf1-b84d-1a97af77e23d",
+                    "contentType": "PersonaDurable",
+                    "title": "Common Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/44e1fae2-80c8-4514-8737-5a233b1796dd/common_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/44e1fae2-80c8-4514-8737-5a233b1796dd/common_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 3,
+                      "totalCount": 4
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_3159f1c4-fc4f-41bd-b7db-0c081b325756?selectedItemId=3159f1c4-fc4f-41bd-b7db-0c081b325756",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_3159f1c4-fc4f-41bd-b7db-0c081b325756?selectedItemId=3159f1c4-fc4f-41bd-b7db-0c081b325756",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "common",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "3b1f4153-8cec-4407-b287-83bc5962fd0b",
+                        "version": "1.0.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/44e1fae2-80c8-4514-8737-5a233b1796dd/common_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/44e1fae2-80c8-4514-8737-5a233b1796dd/common_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "b2b7e99f-e990-47eb-a26a-791c5d6228d3",
+                    "contentType": "PersonaDurable",
+                    "title": "Copper Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/a22e78cd-9089-4849-96ec-440eaab7caed/copper_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/a22e78cd-9089-4849-96ec-440eaab7caed/copper_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 5,
+                      "totalCount": 1
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_84680267-6f7b-4ca7-8779-341a2516b224?selectedItemId=84680267-6f7b-4ca7-8779-341a2516b224",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_84680267-6f7b-4ca7-8779-341a2516b224?selectedItemId=84680267-6f7b-4ca7-8779-341a2516b224",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "c092dcde-7bc1-ac79-5796-1106273398a6",
+                        "version": "1.2.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/a22e78cd-9089-4849-96ec-440eaab7caed/copper_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets002.xboxlive.com/pf-namespace-b63a0803d3653643/a22e78cd-9089-4849-96ec-440eaab7caed/copper_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2024-05-17T15:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "f2264bca-1a59-4bbe-a36d-f4d76c73c4a5",
+                    "contentType": "PersonaDurable",
+                    "title": "Zombie Horse Cape",
+                    "description": "§",
+                    "creatorName": "Minecraft",
+                    "thumbnail": {
+                      "tag": "Thumbnail",
+                      "type": "Thumbnail",
+                      "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/828d37fb-7748-4ad2-86a4-0f82ca64600c/zombie_horse_cape_Thumbnail_0.png",
+                      "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/828d37fb-7748-4ad2-86a4-0f82ca64600c/zombie_horse_cape_Thumbnail_0.png?width=800&height=450"
+                    },
+                    "rating": {
+                      "average": 0,
+                      "totalCount": 0
+                    },
+                    "price": {
+                      "listPrice": 0,
+                      "realmsInfo": {
+                        "inRealmsPlus": false
+                      },
+                      "currencyId": "ecd19d3c-7635-402c-a185-eb11cb6c6946",
+                      "virtualCurrencyType": "Minecoin"
+                    },
+                    "linksTo": "ItemDetail_63feae7e-6fe7-4a60-b752-f88e8a660cc6?selectedItemId=63feae7e-6fe7-4a60-b752-f88e8a660cc6",
+                    "linksToInfo": {
+                      "linksTo": "ItemDetail_63feae7e-6fe7-4a60-b752-f88e8a660cc6?selectedItemId=63feae7e-6fe7-4a60-b752-f88e8a660cc6",
+                      "linkType": "pageId",
+                      "displayType": "store_layout.character_creator_screen",
+                      "screenTitle": {
+                        "value": "profileScreen.Header",
+                        "replacements": []
+                      },
+                      "navigateInPlace": false
+                    },
+                    "creatorPage": "CreatorPage_master_player_account!301F442C3B63DC20",
+                    "statistics": {
+                      "skins": 0,
+                      "worlds": 0,
+                      "textures": 0,
+                      "behaviors": 0
+                    },
+                    "flags": [],
+                    "pieceType": "persona_capes",
+                    "rarity": "legendary",
+                    "ownership": "Purchased",
+                    "packType": "Persona",
+                    "packIdentity": [
+                      {
+                        "type": "persona_piece",
+                        "uuid": "fdb23dd1-cd2f-a951-5078-4f878286abe5",
+                        "version": "1.1.0"
+                      }
+                    ],
+                    "tags": [],
+                    "images": [
+                      {
+                        "tag": "Thumbnail",
+                        "type": "Thumbnail",
+                        "url": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/828d37fb-7748-4ad2-86a4-0f82ca64600c/zombie_horse_cape_Thumbnail_0.png",
+                        "urlWithResolution": "https://xforgeassets001.xboxlive.com/pf-namespace-b63a0803d3653643/828d37fb-7748-4ad2-86a4-0f82ca64600c/zombie_horse_cape_Thumbnail_0.png?width=800&height=450"
+                      }
+                    ],
+                    "contents": [],
+                    "platformRestricted": false,
+                    "iconOverlay": [],
+                    "descriptionLineByLine": [],
+                    "startDate": "2025-12-12T18:00:00Z",
+                    "subscription": [],
+                    "thumbnailPreviewOnly": false,
+                    "namedLinksToInfoMap": {
+                      "dr.persona_creator_page": {
+                        "linksTo": "PersonaCreatorPage_master_player_account!301F442C3B63DC20",
+                        "linkType": "external",
+                        "displayType": "store_layout.character_creator_screen",
+                        "navigateInPlace": false
+                      }
+                    }
+                  }
+                ],
+                "totalItems": 19,
+                "linksTo": "MultiItemPage_Inventory",
+                "linksToInfo": {
+                  "linksTo": "MultiItemPage_Inventory",
+                  "linkType": "marketplace_inventory",
+                  "displayType": "store_layout.store_data_driven_screen",
+                  "navigateInPlace": false
+                },
+                "customStoreRowConfiguration": {
+                  "seeAllVisible": true,
+                  "maxOffers": 19,
+                  "arrowsVisible": false,
+                  "visibleOffersPerRow": 0
+                },
+                "type": "itemListComp",
+                "$type": "ItemListComponent"
+              },
+              {
+                "type": "dispPreviewPieceComp",
+                "$type": "DisplayPreviewedPieceOfferComponent"
+              },
+              {
+                "type": "personaDefaultButtonComp",
+                "$type": "PersonaDefaultButton"
+              }
+            ]
+          },
+          {
+            "controlId": "VerticalLineDivider",
+            "components": [
+              {
+                "textureImage": {
+                  "type": "Unknown",
+                  "style": {
+                    "highlightColor": [],
+                    "alignment": "Left",
+                    "textColor": [],
+                    "font": "default",
+                    "showBackground": false,
+                    "showOutline": false,
+                    "indent": 0,
+                    "buttonWidth": 0,
+                    "color": [0.70196, 0.8392, 0.8588, 0.2],
+                    "offerControlIdType": "None"
+                  }
+                },
+                "type": "textureComp",
+                "$type": "TextureComponent"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sectionName": "navigation",
+        "rows": []
+      }
+    ]
+  }
+}
