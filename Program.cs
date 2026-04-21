@@ -1065,7 +1065,7 @@ internal static class CapeEncryption
         private const string OutPath = "output";
         private ProxyServer? _proxy;
         private bool _proxyOn;
-        private const string TargetUrl = "https://store.mktpl.minecraft-services.net/api/v1.0/layout/pages/DressingRoom_Capes";
+        private const string TargetUrl = "https://store.mktpl.minecraft-services.net/api/v2.0/layout/pages/DressingRoom_Capes";
         private const string PlayfabUrl = "https://20ca2.playfabapi.com/Catalog/GetPublishedItem";
         private const string ThumbLocalHost = "merelycapes.local";
         private readonly Dictionary<SessionEventArgs, string> _pfPend = new();
@@ -1618,7 +1618,9 @@ internal static class CapeEncryption
             var root = File.Exists(CapesJson)
                 ? JObject.Parse(File.ReadAllText(CapesJson))
                 : CapesTemplate();
-            var rows = (JArray)root["result"]!["rows"]!;
+            var layout = (JArray)root["result"]!["layout"]!;
+            var rowsSection = layout.First(s => s["sectionName"]?.ToString() == "rows");
+            var rows = (JArray)rowsSection["rows"]!;
             JArray? items = null;
             foreach (var row in rows)
                 if (row["controlId"]?.ToString() == "GridList")
@@ -1645,10 +1647,18 @@ internal static class CapeEncryption
         private static JObject CapesTemplate() => JObject.Parse(
             @"{""result"":{""id"":""9635ac1f-8ea3-4bb2-a43c-9b158b3382d1"",
 ""pageId"":""DressingRoom_Capes"",""addToRecentlyViewed"":false,""pageName"":""Home L1"",
-""rows"":[{""controlId"":""Layout"",""components"":[]},{""controlId"":""GridList"",
-""components"":[{""text"":{""value"":""dr.collector_title.owned""},""type"":""headerComp""},
-{""items"":[],""totalItems"":0,""type"":""itemListComp""}]}],
-""inventoryVersion"":""1/MTQ1"",""sidebarLayoutType"":""Persona""}}");
+""pageRefresh"":false,""sidebarLayoutType"":""Persona"",
+""layout"":[
+  {""sectionName"":""rows"",""rows"":[
+    {""controlId"":""Layout"",""components"":[]},
+    {""controlId"":""GridList"",""components"":[
+      {""text"":{""value"":""dr.collector_title.owned""},""type"":""headerComp""},
+      {""items"":[],""totalItems"":0,""type"":""itemListComp""}
+    ]}
+  ]},
+  {""sectionName"":""navigation"",""rows"":[]}
+],
+""inventoryVersion"":""1/MTQ1""}}");
         private static JObject MkItem(CapeDefinition c)
         {
             // Prefer the manually entered URL; fall back to the local proxy URL
