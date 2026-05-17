@@ -33,13 +33,13 @@ namespace MerelyCapes
         // ------------------------------------------------------------------ //
 
         /// <summary>
-        /// Renders a 256x256 thumbnail of the player wearing <paramref name="capeBitmap"/>,
+        /// Renders a 450x450 thumbnail of the player wearing <paramref name="capeBitmap"/>,
         /// viewed from the back-left as per the CTE Blockbench project camera.
         ///
         /// The body uses persona.png (64x64 player skin).
         /// The cape uses the supplied bitmap (64x32).
         /// </summary>
-        public static Bitmap GenerateThumbnail(Bitmap? capeBitmap, int width = 256, int height = 256)
+        public static Bitmap GenerateThumbnail(Bitmap? capeBitmap, int width = 450, int height = 450)
         {
             const int SS = 4;
             int rw = width * SS;
